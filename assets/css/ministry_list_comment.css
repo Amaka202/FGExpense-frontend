@@ -1,7 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
 
 .top img{
 padding-right: 10px;
@@ -28,7 +33,7 @@ color: #323E48;
 .topic{
 width: 400px;
 height: 41.25px;
-
+box-sizing: border-box;
 
 font-family: Lato;
 font-style: normal;
@@ -214,7 +219,7 @@ input{
     }
 
     .topic{
-        font-size: 15px;
+        font-size: 13px;
         margin-bottom: -15px;
     }
 
